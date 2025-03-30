@@ -1,0 +1,230 @@
+\documentclass[sigconf]{acmart}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\setcopyright{none}    % Disables ACM copyright notice
+\acmConference{}{}{}   % Removes conference information
+\acmBooktitle{}        % Removes book title
+\acmDOI{}              % Removes DOI
+\acmISBN{}             % Removes ISBN
+\settopmatter{printacmref=false} % Removes the ACM reference format notice
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+
+\title{Final Project Report: SQL Auto-Optimization Using Random Forests}
+\author{Austin Mitchell}
+\affiliation{%
+  \institution{Georgia Institute of Technology}
+  \city{Atlanta, GA}
+  \country{United States}
+}
+\email{amitchell80@gatech.edu}
+
+\graphicspath{{../../images/}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The overall purpose of this project was to create a Machine Learning model, using Random Forest regressions, to predict the execution times of PostgreSQL
+queries. This model could then be utilized in the training of another model in order to efficiently predict the execution time of a proposed version of a query
+by an optimizer. This would allow an optimizer to compare between several possibilities without having to execute the query as a whole. This is supposed to be
+utilized as an exploratory measure of how machine learning could be leveraged for applications in the database systems space.
+
+The primary issue that I could see with a system like this, however, is with the how to make this kind of system generalizable for every database system.
+I think that Machine Learning has extreme promise in improving some aspects of database systems. Query optimization just seems to be the most obvious one, but
+making it such that there can exist a pre-trained optimizer within a database system and that can be used with any database configuration would be a difficult task.
+No database is like another and that drastically changes how a Machine Learning network might predict. The goal of this project is not to provide a ``one-size-fits-all'' solution,
+but rather to seek further insight on what might be necessary to make these systems overall more competent and viable in this type of setting.
+
+\section{Updated Methodology}
+Originally, when I created this project, I was going to utilize a feature set obtained from the \texttt{EXPLAIN ANALYZE} command in PostgreSQL, 
+before moving on to the next steps of making an optimizer. This feature set would be used to then train a regression to predict the execution time 
+of the proposed optimized queries. However, I realized that this might not be a completely predictable way for a prediction to take place as this requires
+the query to be ran prior to the prediction, which doesn't make a lot of sense. I still created this regression just to evaluate its effectiveness, but I do
+not think it would be wise to utilize this in the evaluation of proposed optimized models. So, in addition to the feature-based regression, I also created
+a query-based regression. This regression takes the actual PostgreSQL Query as input, and then uses the actual execution time to create a regression on this.
+This means that it should be able to create predictions with just the query as input, which might serve better given the usage in an optimizer.
+
+Another change that I brought to my overall methodology is the introduction of the XGBoost Regression. This regression differs from Random Forest in that
+it is slower but has more hyperparameters that can be tuned. Overall it is a more complex regression but offers more control over the regression as a whole.
+I realized that the compute overhead was not as overbearing as I originally intended, even with hyperparameter tuning, so I chose to add an additional regression with
+the hopes that I could obtain some sort of nuanced result.
+
+Something that I feel that I may have forgot to mention in my original proposal is the mention of hyperparameter tuning. I decided to utilize tuning for 
+the regressions so that I can achieve the best results.
+
+\section{Completed Tasks}
+\subsection{PostgreSQL and TPC-H Setup}
+This setup took a large amount of my time in the early stages of this project. I wanted a way that would be
+easy for the TAs and/or the professor to reproduce the results if need be. For this reason, I decided that it was probably
+best to establish a Docker container which contains the PostgreSQL database. This was primarily for the distribution reasons
+as stated previously; however, this would also allow for me to host the database on the cloud through something like AWS Elastic Container Service (ECS)
+if need be. So far, I have not had to do this, and I have primarily restrained this to a local environment. The current container creates a PostgreSQL database
+and hosts the container on Port $5432$. Upon the initialization of the container, the database is generated using TPC-H's dbgen tool~\cite{tpch}. This
+was received on the TPC website. This dbgen tool generates the appropriate schema and tables to run the appropriate test. TPC-H also includes $22$ query templates,
+and this container allows for the creation of variations of this template using TPC-H's built-in qgen tool. This tool allow for the generation of 22 queries. 
+These queries are essential for the development of the prediction model. With this container, I was able to generate the entire TPC-H database, along with 100 variations
+of each of the 22 queries, leading to 2200 queries which could be used for the prediction models.
+
+\subsection{Query Preprocessing}
+Before I could execute all 2200 of these queries, I needed to clean the data in order to allow for a better execution process.
+For example, I wanted to execute each of the queries using the \texttt{EXPLAIN ANALYZE} functionality. I wanted to do this so that,
+if needed, I could have a feature space that I could use a query to predict the execution time. It might seem redundant to train a model to predict execution time when
+\texttt{EXPLAIN ANALYZE} already provides execution time as one of its features; however, I wanted this freedom to utilize this feature space to
+possibly develop a more nuanced model. Perhaps some some of the information within the feature space could be extracted from the raw query and provided to the regression
+in order to develop better predictions. In any sense, I decided to preprocess the 2200 queries that TPC-H included. This preprocessing was primarily used to ensure that
+there would be no issues in executing these queries in PostgreSQL. The most notable of these syntactical issues can be seen in Query 17. Query 17 utilizes the creation of a
+view in its query process. The query would create a view, execute a query on the view and then drop the view. In order to make this work properly, I separated the creation and dropping
+of views from the query itself. This means that each of Query 17's variations has 3 files associated with it. This would become necessary when it comes to the query execution process.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\linewidth]{feature_based_rf/logscale.png}
+  \caption{Random Forest Log-scale Predictions (Feature-Based)}
+  \label{fig:rf-feature-log}
+\end{figure}
+
+\subsection{Query Execution}
+For the query execution process, I utilized a simple Python script which connected to the PostgreSQL database running on the Docker container, and then would sequentially execute each of the queries
+using the \texttt{EXPLAIN ANALYZE} command. If the query contained a view, the execution would make sure to run the query to create the view, then execute the query using the \texttt{EXPLAIN ANALYZE}
+command, and then drop the view after the query's execution. Due to the slow execution speed, I attempted to parallelize the execution of this script. This largely seems ot be due to Query 20, which 
+seems to be an overly ``deep'' model as a whole. I will say that this script has not completed execution at the time of writing this report. As of right now it has executed 1200 of the 1000 queries, and it
+is currently trying to work through the 100 variations of Query 20. After parallelizing the script and making attempts to 
+improve the efficiency, I have gotten the executions to the best point that I believe possible so I must simply wait for these queries to finish.
+
+\subsection{Regressions}
+The first model that I made is a Feature-Based regression  to develop a predictive regression based on the following feature space:
+\begin{itemize}
+  \begin{minipage}[t]{0.48\linewidth}
+    \item Total Rows
+    \item Total Loops
+    \item Node Types
+    \item Max Depth
+    \item Has Seq Scan
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.48\linewidth}
+    \item Has Sort
+    \item Has Index Scan
+    \item Workers Launched
+    \item Query Id
+  \end{minipage}
+\end{itemize}
+
+
+For this feature space, I trained two regressions: a Random Forest regression and a XGBoost Regression. I performed hyperparameter tuning on both models to ensure that they achieved the best performance.
+For performance statistics, I used Root Mean Square Error (RMSE), Mean Absolute Error (MAE), and R-squared metrics to determine their performance. It is also worth noting that for training purposes, I used the log
+of the execution time, this is to make the variance more stable as there were outliers from Query 20 that were creating a very large imbalance in the data. We can see the results of the feature-based model in \ref{fig:rf-feature-log}
+which shows a log-scaled plot of its Prediction vs. Actual Performance. I chose to log-scale these plots in order to better show the degree of variance that exists in the graph. As you can see there is a cluster of outliers that
+are all from Query 20.
+
+
+The second model that I implemented is a Query-based model. This model has a couple additional steps compared to the feature-based regression. Namely, I needed to encode the queries so that the regression could better
+read and understand the text-based features. To do this I used sentence based transformers in order to encode this data \cite{reimers2019sentencebertsentenceembeddingsusing}. Once the data is encoded, I could then train the
+regression. Similar to the feature-based, I used RMSE, MAE, and R-squared as the primary metrics. Figure \ref{fig:xgb-query-log} shows the XGBoost regression at log-scale and its performance.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\linewidth]{query_based_xgb/logscale.png}
+  \caption{XGBoost Log-scale Predictions (Query-Based)}
+  \label{fig:xgb-query-log}
+\end{figure}
+
+As we can see from Table \ref{tab:model-evaluation}, we can see that the query-based model outperformed the feature-based model.
+This was actually quite a shocking revelation to me because of how much data the feature-based model was given. It is also worth it to note that while the RMSE and MAE are extremely high, that this is largely due to the outliers
+that are present within Query 20 due to their unusually high execution times.
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|l|l|r|r|r|}
+    \hline
+    \textbf{Model Type} & \textbf{Model}  & \textbf{RMSE (ms)} & \textbf{MAE (ms)} & \textbf{R\textsuperscript{2}} \\
+    \hline
+    \multirow{2}{*}{Feature-Based} 
+      & RandomForest & 127,590.99 & 18,966.29 & 0.996 \\
+      & XGBoost      & 143,512.72 & 22,809.43 & 0.995 \\
+    \hline
+    \multirow{2}{*}{Query-Based} 
+      & RandomForest & 97,378.77 & 12,817.05 & 0.997 \\
+      & XGBoost      & 77,019.35 & 8,337.39  & 0.998 \\
+    \hline
+  \end{tabular}
+  \caption{Model evaluation results on full data (execution time in milliseconds)}
+  \label{tab:model-evaluation}
+\end{table}
+
+\subsection{Query Optimization}
+I have been able to create and run a query optimization technique. This currently works in a very elementary way where it takes in the query and randomly constructs
+a new query. The previously made model then determines the execution time of the queries and then determines the overall best plan for the SQL query. The hope is that with
+this the queries should hopefully be able to perform better than the original query was intended. I primarily struggled with the method in which to create these new queries in
+a good and logical way. I had a lot less time to work on this half of the project compared to the first half and I have a lot less exposure to this aspect of Computer Science in general
+which made this more difficult. I simply chose a simple join order mutation and then utilized the regression that I had developed in predicting the execution time for the queries.
+
+\begin{algorithm}[H]
+\caption{SQL Query Optimizer using ML-Predicted Execution Time}
+\label{alg:query-optimizer}
+\begin{algorithmic}[1]
+\STATE Load pre-trained model and query encoder
+\STATE Parse input query or CSV file of queries
+\FOR{each query}
+    \STATE Convert implicit joins to explicit form
+    \STATE Extract \texttt{FROM} base and \texttt{JOIN} clauses
+    \STATE Generate permutations of join orderings
+    \STATE Construct full query variants
+    \STATE Encode each query using Sentence Transformer
+    \STATE Predict execution time using trained ML model
+    \STATE Rank variants by predicted execution time
+    \STATE Select query with lowest predicted time as optimized
+    \STATE Save top-k variants and predictions to CSV
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+I was relieved that the execution of the Query Optimization script that I had built wasn't excessively long; however, I know that given my issues with the current previous execution that there
+would be continuing issues with the execution of the optimized version of the queries as well. I am still working on fixing this set of issues in order to obtain good data and perform analysis 
+on this data.
+
+\section{Challenges}
+I ran into a few challenges with the execution of the tasks that I have completed thus far. Namely, I ran into issues with overly long executions, Docker container setup, and query formatting.
+
+\subsection{Long Query Execution}
+For both the feature-based regression and the query-based regression, I needed to execute every query at least once. With 2200 queries in total, I knew that the execution would
+take a long time; however, as I mentioned previously, Query 20 had some issues with large execution times. After a bit of further investigation it appears this is due to several nested
+queries with various filters and joins which seem to be drastically increasing the execution times of this. In order to best overcome this issue, I attempted to optimize the query execution
+script as much as possible. This involved parallelizing the process and increasing the number of CPU cores and the amount of RAM that the Docker container was allowed to access.
+Even with all of this, it took on average over an hour for each query, and with 100 variations, this meant that it took over 3 days to run all of the executions. I also ran into a couple errors
+with some of the executions which lead to a dataset less than the intended 1200.
+
+\subsection{Docker Container Setup}
+The setup of the Docker container was a little harder than I originally expected. I had to establish a bash script to run the SQL generator so that the database was populated upon the initial creation
+of the container, and I also had to find the write similar commands to generate the 2200 queries that would be needed for execution. This was a lot of trial and error since it has been a while since I have
+deployed my own container, but I figured it would be worth it in the event that this needed to be recreated or if I needed to scale the containers.
+
+\subsection{Query Optimization and Formatting}
+I ran into some issues when creating the optimizer, where it would not always create perfect queries that could then be executed by PostgreSQL in a seamless manner. Because of this, I had to devote a lot of time towards
+attempting to parse and format the queries a certain way in order to prevent incorrect permutations of queries or execution of these incorrect permutations. This was a very tedious process as a lot of the SQL queries are not 
+the same, as mentioned previously. Some have the creation of SQL views which need to be established before the query can be made. I also ran into some issues on whether or not I should optimize these views or other aspects of the queries.
+I found the ability to create an optimal solution while still retaining the semantics of the original message to be difficult in this project.
+
+\section{Next Steps}
+Currently, I have a working optimizer; however, I am still working to get a full benchmark of the results in a presentable manner. I am primarily looking for an optimization primarily in the runtime but I imagine
+that if this were to succeed that there would also be an optimization in other aspects of the queries such as the number of scans and other metadata. I am hoping to get this working for the final submission of the 
+project or if I am selected for the project presentations. If given more time I think I would be able to complete the query optimization, but given the difficulty that I faced with the formatting, I do not think I will be able to
+get to it in time. I think that this could be promising in the future and I would like to see future work expand on the usage of Machine Learning in optimizing various database system techniques.
+
+\section{Conclusion}
+As a whole, I am very content with the progression of the regression models that I was able to construct. I also think that the work that I did on the optimizer, while elementary, is still very interesting and could develop
+into something greater in the future. I think that there is something to be said for the usage of some sort of predictive Machine Learning networks within the space of database systems. I envision that they could help to 
+provide useful insights on a database such as the creation of new indices or some other reorganization of the data to optimize the system as a whole. 
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}
+
+

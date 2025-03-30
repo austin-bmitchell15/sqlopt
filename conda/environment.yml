@@ -1,0 +1,31 @@
+name: sqlopt
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python
+  - python=3.11
+
+  # PostgreSQL interaction
+  - psycopg2
+
+  # Data handling and ML
+  - pandas
+  - scikit-learn
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Jupyter for exploration
+  - jupyterlab
+
+  - xgboost
+  - sentence_transformers
+
+  # Install pip for additional packages
+  - pip
+  - pip:
+      - typer[all]  # For optional CLI scripting
+      - deap        # For genetic algorithm (optional/phase 2)

@@ -1,0 +1,1153 @@
+execution_time,planning_time,total_rows,total_loops,node_types,max_depth,has_seq_scan,has_sort,has_index_scan,workers_launched,query_id
+1378.733,7.887,195129,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.15
+1378.542,7.886,198526,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.1
+1378.538,7.887,196978,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.12
+1384.687,7.947,296940,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.10
+1199.835,0.517,198232,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.17
+2662.086,7.906,587366,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.14
+1191.537,0.38,198618,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.16
+1198.91,0.392,197309,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.19
+2780.379,7.948,589220,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.13
+2795.049,7.906,595386,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.100
+2970.053,7.844,592394,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.11
+1694.478,0.471,296670,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.18
+1066.079,0.389,196772,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.20
+1098.973,0.554,198128,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.2
+1290.895,0.516,195555,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.22
+1253.714,0.463,197126,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.27
+1782.783,0.393,296391,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.26
+1276.833,0.389,196564,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.28
+1275.002,0.396,195964,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.29
+3102.593,0.427,588532,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.21
+3217.272,0.48,596505,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.23
+1194.738,0.455,197669,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.3
+1176.987,0.397,195304,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.30
+3222.696,1.197,595386,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.24
+3314.273,0.582,594175,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.25
+1273.937,0.388,198331,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.32
+1789.051,0.496,298060,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.31
+1074.586,0.475,196911,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.35
+1020.288,0.629,197427,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.34
+1098.579,0.492,198576,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.39
+1170.841,0.452,198180,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.40
+1370.535,0.434,197730,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.41
+1694.424,0.525,295764,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.4
+3069.742,0.398,593675,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.33
+1274.886,0.555,197248,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.42
+3100.808,61.238,589005,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.36
+3212.234,0.603,587130,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.37
+1156.981,0.407,196630,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.43
+3311.09,0.631,585074,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.38
+1115.265,0.499,195387,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.45
+1704.843,0.51,294050,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.44
+1307.806,0.474,198377,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.47
+1180.279,0.388,197483,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.49
+1178.46,0.519,196978,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.50
+1201.763,0.484,195807,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.52
+1203.529,0.486,198618,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.54
+1199.263,0.52,198232,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.55
+3287.338,0.486,596240,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.46
+1604.096,0.391,292678,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.53
+3505.773,0.489,593857,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.48
+3358.829,0.474,589833,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.5
+1268.461,0.395,197790,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.56
+1206.612,0.461,196196,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.59
+1270.747,0.515,197309,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.57
+3792.598,0.482,589220,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.51
+1797.393,0.527,295142,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.58
+1268.793,0.507,198077,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.63
+1777.915,0.495,293316,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.60
+1286.892,0.482,197605,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.64
+1793.218,0.494,298264,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.61
+3778.875,0.457,588076,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.6
+1804.48,0.486,294830,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.66
+1280.044,0.544,195964,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.67
+1270.843,0.493,195304,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.68
+1287.167,0.498,198718,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.69
+3593.703,0.492,595386,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.62
+1272.802,0.4,197910,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.71
+1272.25,0.401,198331,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.70
+1283.409,0.402,197427,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.72
+3712.574,0.499,591323,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.65
+1876.461,0.382,295350,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.73
+3303.849,0.5,586104,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.7
+1216.116,0.47,198576,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.77
+1216.179,0.463,198180,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.78
+1226.682,21.35,195043,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.76
+3202.14,0.475,589005,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.74
+1116.806,0.505,196120,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.82
+1117.67,0.503,196700,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.81
+1208.286,0.565,195472,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.83
+1890.038,0.444,298132,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.8
+3401.634,1.057,587130,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.75
+1270.671,0.418,198377,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.85
+1351.346,0.415,197971,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.86
+3772.733,0.409,593134,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.79
+1318.11,0.47,196978,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.88
+1890.241,0.478,296209,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.87
+3619.703,0.493,591689,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.80
+1268.231,0.479,195129,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.91
+1358.078,0.439,198377,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.9
+1302.428,0.469,195807,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.90
+3492.957,0.504,596361,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.84
+1666.198,0.463,297332,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.93
+1179.09,0.527,196772,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.96
+3393.168,0.489,589220,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.89
+1369.329,0.527,197309,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.95
+1360.779,0.391,196196,11,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,2,query1.97
+377.267,0.682,112197,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.10
+459.368,0.917,112007,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.100
+584.982,3.003,112564,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.1
+3282.399,0.567,595798,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.92
+605.764,56.274,248395,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.11
+295.927,0.822,112427,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.12
+358.221,1.005,108251,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.13
+372.183,1.008,112045,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.14
+1401.079,0.627,298264,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,1,query1.99
+3018.536,0.496,593315,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.94
+466.152,0.7,111983,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.16
+388.66,0.895,111480,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.17
+322.822,0.914,111175,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.19
+608.764,1.012,251575,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.15
+218.054,0.955,112417,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.2
+624.719,0.93,250511,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.18
+296.193,1.123,113814,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.20
+321.791,0.896,111487,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.21
+407.147,0.881,146767,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.22
+305.336,0.918,112820,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.24
+2782.383,0.518,586609,5,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Seq Scan': 1}",5,True,True,False,0,query1.98
+221.507,51.034,108259,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.26
+357.514,0.895,112003,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.27
+691.995,0.936,250567,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.23
+398.139,0.972,147197,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.25
+310.799,1.02,112009,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.29
+512.914,0.971,251483,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.28
+218.805,1.088,111456,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.30
+225.598,0.901,111154,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.32
+217.51,0.983,113861,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.33
+455.775,0.925,250145,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.3
+351.853,0.905,250511,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.31
+294.698,0.787,112021,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.35
+295.804,0.836,111990,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.36
+302.979,0.836,111873,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.37
+325.733,0.889,145158,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.34
+598.497,1.029,250993,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.38
+299.032,1.344,112023,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.42
+339.305,0.808,112417,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.41
+677.752,0.924,247721,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.39
+306.479,0.972,112289,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.43
+700.853,0.984,249211,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.4
+770.363,1.053,250529,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.40
+483.282,1.307,147017,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.44
+285.188,0.798,112105,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.45
+280.941,0.87,113509,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.48
+282.134,0.887,112903,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.46
+375.457,0.942,146458,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.50
+272.188,0.729,111375,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.53
+604.735,0.906,247879,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.47
+293.069,0.902,110942,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.52
+601.523,1.041,247721,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.5
+293.385,0.975,113402,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.54
+614.255,1.004,251575,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.49
+443.201,0.877,250993,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.51
+296.189,0.715,112007,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.55
+296.48,1.196,112309,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.56
+288.387,0.933,111158,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.58
+370.798,0.699,146993,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.57
+523.418,0.933,252357,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.59
+280.544,0.889,112434,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.62
+625.473,0.933,247879,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.60
+298.858,0.914,111966,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.63
+299.199,0.877,112323,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.64
+676.505,0.964,249041,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.6
+593.867,0.929,251713,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.61
+318.185,0.964,145216,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.65
+193.173,0.913,111347,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.66
+292.148,0.735,112281,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.69
+301.329,0.894,112788,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.7
+354.103,1.169,147025,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.70
+502.428,0.831,252269,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.67
+278.362,1.013,108224,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.73
+599.404,0.917,249233,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.68
+302.785,41.757,112589,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.74
+319.941,0.92,112418,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.75
+525.232,0.94,251305,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.72
+600.611,0.945,248395,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.71
+394.241,0.87,146571,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.76
+216.845,1.137,111461,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.77
+264.711,0.744,112460,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.8
+290.56,0.958,113068,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.78
+378.519,0.955,147731,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.80
+218.704,0.979,111985,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.83
+285.297,0.948,111170,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.84
+221.122,0.975,108273,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.86
+605.845,0.935,249041,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.79
+585.559,0.734,249233,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.81
+596.13,0.994,250639,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.82
+290.144,0.83,111967,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.87
+294.465,0.855,112430,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.88
+575.954,1.032,251305,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.85
+302.899,0.938,112063,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.9
+391.627,1.119,146567,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.89
+216.726,1.124,111187,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.92
+306.374,1.203,111515,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.94
+385.824,0.988,113831,38,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.93
+602.323,0.919,249211,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.90
+615.798,0.983,250511,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.91
+395.8,1.045,146743,27,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,1,query10.95
+370.682,0.983,111877,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.97
+292.349,0.982,112331,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.98
+262.876,1.021,108280,39,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,2,query10.99
+516.692,0.92,250567,15,"{'Sort': 2, 'Aggregate': 2, 'Gather Merge': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",10,True,True,False,0,query10.96
+119.462,2.274,172199,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.1
+95.319,0.595,170421,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.12
+99.303,0.578,171975,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.11
+99.299,0.532,171973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.10
+99.353,0.482,171757,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.100
+86.253,0.652,174973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.13
+33.554,0.501,170417,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.15
+28.491,0.459,171065,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.2
+56.934,0.456,170909,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.14
+54.941,0.501,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.18
+54.825,0.439,173053,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.20
+44.201,0.462,174249,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.16
+53.147,0.457,171715,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.19
+59.711,0.456,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.17
+37.82,0.578,173527,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.21
+34.853,0.575,171757,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.23
+43.935,0.715,169377,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.28
+54.622,0.582,171977,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.22
+41.496,0.566,172199,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.26
+42.026,0.486,172631,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.24
+52.905,0.563,171065,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.27
+53.091,0.665,171077,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.25
+33.982,0.447,169377,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.3
+34.926,0.447,171535,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.29
+31.954,0.439,171079,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.30
+37.981,0.665,171295,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.33
+57.057,0.442,172639,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.31
+50.508,0.459,171973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.35
+51.272,0.569,171915,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.32
+53.29,0.568,170645,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.34
+55.879,0.442,171975,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.36
+55.039,0.543,170421,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.37
+49.323,0.45,174973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.38
+32.216,0.493,170909,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.39
+35.947,0.594,171535,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.4
+32.629,0.454,170417,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.40
+36.403,0.434,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.42
+64.437,0.547,174249,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.41
+54.039,0.421,171715,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.44
+55.786,0.451,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.43
+33.895,0.496,173527,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.46
+36.449,0.464,173053,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.45
+30.557,0.548,171977,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.47
+31.593,0.594,172631,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.49
+31.715,0.508,171757,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.48
+36.307,0.587,171079,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.5
+54.865,0.454,171077,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.50
+51.343,0.47,172199,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.51
+41.253,0.455,171065,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.52
+44.785,0.452,169377,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.53
+51.749,0.508,172639,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.56
+50.503,0.374,171535,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.54
+52.05,0.362,171079,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.55
+32.747,0.454,171915,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.57
+34.97,0.454,171295,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.58
+39.746,0.463,170645,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.59
+29.856,0.523,171973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.60
+35.022,0.753,172639,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.6
+31.57,0.602,171975,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.61
+28.916,0.424,170421,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.62
+29.34,0.606,170417,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.65
+32.382,0.445,170909,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.64
+35.584,0.645,174973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.63
+34.623,0.608,174249,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.66
+36.714,0.46,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.67
+47.884,0.458,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.68
+38.128,0.46,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.69
+32.11,0.389,171915,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.7
+29.928,0.545,173053,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.72
+35.736,0.467,171715,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.71
+35.59,0.496,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.70
+37.46,0.631,173527,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.73
+34.219,0.448,171977,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.74
+32.756,0.66,172631,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.76
+53.896,0.44,171077,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.77
+57.044,0.458,171757,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.75
+57.718,0.53,172199,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.78
+36.143,0.647,169377,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.80
+36.131,0.646,171295,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.8
+37.517,0.657,171065,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.79
+40.264,0.558,171535,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.81
+36.853,0.545,171079,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.82
+65.963,0.572,171915,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.84
+68.587,0.64,172639,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.83
+54.869,0.615,171295,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.85
+60.294,0.465,170645,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.86
+65.333,0.51,171973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.87
+66.127,0.447,171975,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.88
+43.307,0.903,170421,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.89
+39.353,0.618,170645,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.9
+38.591,0.602,170909,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.91
+69.511,0.507,174973,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.90
+53.864,0.606,170417,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.92
+60.703,0.62,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.94
+60.972,0.601,174249,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.93
+65.78,0.588,171715,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.96
+43.059,0.536,173541,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.95
+37.682,1.697,173053,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.97
+77.667,1.549,173527,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.98
+77.875,0.637,171977,18,"{'Sort': 2, 'Aggregate': 2, 'Hash Join': 4, 'Seq Scan': 6, 'Hash': 4}",8,True,True,False,0,query11.99
+364.572,0.613,81088,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.1
+359.711,0.594,81224,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.100
+400.387,0.542,81264,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.10
+401.42,0.457,81428,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.12
+387.331,0.546,81216,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.11
+386.993,0.487,81276,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.13
+373.847,0.498,81300,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.14
+380.537,0.525,81232,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.16
+385.371,0.431,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.18
+385.531,0.52,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.19
+394.793,0.518,81112,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.17
+451.328,0.463,81204,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.20
+399.734,0.538,80968,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.21
+457.639,0.63,81112,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.2
+698.058,0.552,162462,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.15
+404.463,0.597,81368,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.24
+378.857,0.511,81368,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.25
+384.04,0.682,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.22
+380.335,0.551,81320,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.26
+386.717,0.613,81328,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.23
+388.072,0.556,81304,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.28
+340.065,0.567,81224,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.29
+707.395,0.568,162674,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.27
+369.048,0.525,81356,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.33
+399.719,46.423,80936,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.3
+406.323,46.481,81288,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.30
+405.162,0.506,81304,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.32
+462.7,0.363,81280,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.31
+421.733,0.538,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.34
+421.796,0.551,81224,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.35
+371.206,0.593,81308,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.37
+376.151,0.582,81168,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.38
+359.909,0.489,81168,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.40
+385.934,0.537,81256,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.36
+386.628,0.566,81356,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.39
+389.577,0.554,81216,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.4
+388.691,0.545,81112,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.41
+686.447,0.538,162522,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.42
+319.859,0.59,81264,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.44
+357.218,0.426,81376,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.43
+404.304,0.589,81256,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.45
+401.209,0.439,81204,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.47
+405.712,0.434,81204,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.46
+393.322,0.542,81264,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.48
+331.398,0.537,81368,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.49
+366.819,0.431,81420,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.51
+360.958,0.504,81192,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.53
+376.544,0.446,81192,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.5
+379.378,0.465,81312,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.52
+385.581,0.464,81276,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.50
+398.173,0.536,81320,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.54
+410.721,0.539,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.55
+675.334,0.541,162358,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.56
+314.646,0.566,81248,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.57
+301.358,0.443,81136,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.6
+298.123,0.523,81216,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.60
+302.838,0.453,81112,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.58
+385.418,0.441,81092,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.59
+381.086,0.538,81276,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.61
+320.907,0.574,81140,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.62
+316.653,0.535,81304,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.64
+312.564,0.436,81136,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.63
+302.53,0.546,81196,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.66
+377.202,0.546,81244,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.65
+389.31,0.548,81176,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.67
+382.011,0.554,81352,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.68
+330.712,0.536,81240,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.7
+689.086,0.51,162346,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.69
+375.085,0.576,81284,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.71
+375.054,0.583,81384,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.70
+377.004,0.577,81236,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.72
+378.654,0.532,81160,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.73
+368.508,0.426,81072,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.74
+311.495,0.546,81168,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.75
+311.958,0.55,81164,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.76
+372.401,0.572,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.78
+386.602,0.573,81424,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.79
+409.505,43.902,81248,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.77
+407.506,0.445,81204,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.8
+412.085,0.451,81376,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.80
+420.039,0.516,81368,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.81
+421.576,0.56,81328,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.82
+413.844,0.435,162358,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.83
+116.217,0.453,81256,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.84
+330.036,0.562,81264,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.85
+325.508,0.617,81304,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.88
+337.511,0.579,81356,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.87
+318.269,0.601,81344,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.86
+388.52,0.589,81192,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.90
+396.374,0.524,81288,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.89
+418.405,0.591,81232,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.91
+697.291,0.588,162502,8,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,0,query12.9
+379.222,0.554,81136,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.93
+388.218,1.261,81268,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.92
+463.546,0.576,81112,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.94
+450.587,0.633,81248,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.95
+416.145,0.521,81168,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.97
+467.653,0.578,81144,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.96
+428.01,0.522,81264,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.98
+207.052,0.524,81136,14,"{'Aggregate': 2, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",7,True,True,False,1,query12.99
+279.711,0.597,346740,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.100
+296.551,0.94,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.1
+299.54,0.651,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.10
+291.011,0.715,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.13
+348.933,0.459,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.11
+348.781,0.449,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.12
+340.69,0.468,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.14
+286.808,0.458,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.15
+228.178,31.222,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.17
+344.084,0.444,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.16
+283.784,0.565,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.18
+278.623,0.436,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.21
+304.863,0.471,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.19
+293.441,0.448,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.20
+293.708,0.364,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.2
+340.209,0.44,346866,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.22
+299.54,0.452,346866,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.23
+302.871,0.543,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.24
+278.122,0.436,346846,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.29
+308.27,0.544,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.26
+295.177,0.568,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.27
+343.04,0.614,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.28
+370.665,0.55,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.25
+258.041,0.441,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.3
+229.15,0.438,346846,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.30
+224.744,0.452,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.33
+266.474,0.452,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.34
+269.469,0.453,346846,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.32
+283.119,0.452,346846,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.31
+269.003,0.553,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.35
+292.286,0.558,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.36
+274.529,0.488,346884,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.37
+279.165,0.545,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.38
+276.633,0.437,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.40
+267.98,0.459,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.41
+277.718,0.54,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.39
+291.154,0.532,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.4
+292.589,0.486,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.42
+255.557,0.44,346740,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.43
+344.713,0.442,346768,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.44
+282.91,0.546,346768,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.45
+261.315,0.639,346832,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.47
+265.871,0.578,346832,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.48
+284.558,0.561,346768,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.46
+244.164,0.571,346832,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.49
+251.918,0.592,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.5
+244.545,0.541,346832,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.50
+289.645,0.446,346866,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.51
+311.636,0.553,346880,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.52
+297.555,0.545,346880,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.53
+354.628,0.505,346880,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.54
+340.94,0.429,346880,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.55
+321.696,0.577,346866,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.57
+311.076,0.542,346880,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.56
+306.706,0.443,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.58
+294.522,0.572,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.59
+294.384,0.462,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.60
+220.52,0.442,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.65
+294.448,0.538,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.61
+304.573,0.453,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.6
+286.341,0.575,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.63
+279.252,0.443,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.64
+302.374,0.537,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.62
+303.563,0.545,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.66
+278.206,0.51,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.67
+276.723,0.433,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.69
+273.314,1.588,346884,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.71
+292.202,0.428,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.68
+344.813,0.432,346710,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.7
+326.469,21.023,346884,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.72
+301.651,0.441,346746,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.70
+276.387,0.419,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.74
+279.398,0.405,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.73
+227.374,0.614,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.76
+217.138,0.421,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.78
+288.598,0.56,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.75
+298.357,0.507,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.77
+261.7,31.597,346789,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.79
+313.653,31.59,346740,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.8
+241.845,0.596,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.81
+296.383,0.449,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.80
+287.228,0.548,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.82
+289.862,0.548,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.83
+302.839,0.483,346658,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.84
+289.465,0.543,346866,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.85
+322.596,0.658,346866,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.86
+305.107,0.446,346846,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.87
+322.462,0.57,346846,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.88
+356.753,0.543,346740,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.9
+318.803,0.517,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.92
+364.347,0.574,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.89
+358.835,0.623,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.91
+333.078,0.497,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.90
+291.654,0.535,346812,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.93
+301.85,0.537,346876,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.94
+102.483,0.492,44967,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.1
+116.235,0.543,45091,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.10
+310.196,0.583,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.95
+112.042,0.449,45243,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.100
+369.719,0.571,346740,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.99
+371.727,0.531,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.97
+377.989,0.466,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.98
+451.537,0.508,346914,7,"{'Sort': 1, 'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,True,False,0,query13.96
+175.79,0.445,45235,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.11
+115.623,0.548,45187,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.12
+177.064,0.618,45025,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.14
+196.089,0.63,47358,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.13
+178.346,0.565,45177,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.15
+180.285,0.567,44899,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.16
+210.097,0.455,55115,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.18
+228.021,0.577,55529,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.17
+226.995,0.588,55065,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.19
+87.04,0.494,45147,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.2
+95.602,0.481,44987,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.20
+95.685,0.497,45103,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.21
+183.057,0.59,47110,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.22
+194.615,0.569,55743,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.24
+286.799,0.592,54047,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.23
+120.51,0.531,45119,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.28
+173.071,0.585,45141,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.29
+187.358,0.614,45243,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.27
+378.916,0.573,55717,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.25
+320.772,0.597,55335,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.26
+192.955,0.631,45123,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.3
+124.972,61.124,45261,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.30
+190.738,0.581,45043,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.32
+198.635,1.009,47488,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.31
+179.25,0.612,45253,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.36
+293.495,0.564,55297,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.33
+302.768,0.58,55485,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.35
+180.2,0.538,44871,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.37
+183.693,0.543,44569,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.38
+307.618,0.602,53655,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.34
+177.889,0.587,44961,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.39
+273.267,0.559,47724,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.4
+178.948,0.564,45107,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.41
+119.964,0.565,45295,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.42
+355.542,0.453,54623,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.40
+173.29,0.581,45221,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.44
+207.758,0.631,47504,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.43
+118.055,0.549,45177,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.47
+188.434,0.604,45141,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.48
+182.02,0.604,44787,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.49
+312.341,0.449,55799,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.45
+312.551,0.629,55059,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.46
+176.209,0.579,45251,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.5
+114.46,0.655,45009,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.50
+177.213,0.599,45097,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.52
+202.641,0.656,47698,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.51
+189.956,0.607,45059,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.55
+187.571,0.795,45013,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.56
+304.302,0.595,55113,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.54
+304.308,0.57,55421,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.53
+189.22,0.594,45147,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.58
+116.843,0.552,45123,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.59
+157.229,0.459,45141,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.6
+377.117,0.601,55001,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.57
+202.859,0.778,47724,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.60
+182.97,0.541,44963,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.61
+193.709,0.592,45087,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.63
+200.017,0.476,45259,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.62
+119.584,0.603,45139,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.65
+221.911,0.607,53645,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.64
+273.159,0.594,47844,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.66
+188.382,0.382,45187,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.68
+191.067,0.531,44907,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.69
+187.175,0.665,45087,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.7
+361.334,0.58,55095,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.67
+303.068,0.746,55065,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.70
+176.592,0.59,45145,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.72
+165.772,0.46,45043,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.74
+170.371,0.484,45025,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.75
+241.667,0.646,47768,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.73
+385.371,0.602,55445,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.71
+184.464,0.616,45147,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.77
+357.974,0.485,54891,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.76
+174.812,0.526,44553,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.8
+180.504,0.447,44743,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.78
+132.316,0.567,47026,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.79
+201.159,0.627,45251,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.80
+190.914,0.446,45115,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.82
+202.753,0.522,45141,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.81
+275.238,0.459,47848,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.86
+253.274,0.603,55343,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.84
+302.462,0.465,55263,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.85
+316.276,0.631,55717,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.83
+307.981,0.572,54971,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.87
+162.083,0.458,45139,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.9
+163.583,0.561,45103,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.89
+174.894,0.62,45043,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.88
+201.67,0.817,47762,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query14.90
+177.812,0.545,44871,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.93
+181.272,0.982,44899,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.91
+177.686,0.661,45253,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.92
+278.302,0.63,54949,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.95
+277.099,0.592,55299,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.96
+226.77,1.742,53693,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.94
+94.803,0.571,45295,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.98
+169.223,0.503,45005,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query14.99
+361.272,0.617,55309,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query14.97
+139.786,1.39,28346,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.1
+85.26,0.659,27584,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.11
+74.681,0.58,27190,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.13
+78.881,0.569,28520,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.12
+90.906,0.667,27525,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.17
+77.507,0.712,27979,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.15
+86.583,0.835,27623,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.19
+86.642,0.59,27731,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.100
+77.71,0.594,27629,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.2
+88.32,0.677,28256,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.16
+81.996,0.791,27934,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.23
+78.308,0.554,28193,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.20
+83.726,0.709,27987,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.14
+93.039,0.704,27284,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.21
+76.906,0.575,28142,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.27
+102.943,0.677,27102,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.28
+70.698,0.749,28514,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.29
+82.249,0.593,28310,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.18
+83.933,0.875,28147,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.10
+82.523,0.649,27190,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.30
+77.056,0.793,28256,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.32
+96.478,0.673,28428,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.25
+82.961,0.776,27998,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.31
+89.39,0.791,27522,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.34
+75.588,0.598,28192,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.3
+91.197,0.717,28189,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.37
+80.389,0.798,27288,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.38
+97.335,0.585,28261,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.33
+74.766,0.859,27965,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.26
+87.013,0.591,28304,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.35
+83.19,0.723,28061,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.41
+89.66,0.628,28056,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.36
+82.675,0.772,28429,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.42
+81.358,0.604,27929,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.22
+75.055,0.626,28092,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.43
+89.629,0.745,27580,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.4
+71.328,0.791,27936,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.40
+90.88,0.583,28142,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.44
+73.813,0.71,27629,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.39
+84.231,0.687,28060,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.24
+65.948,0.558,27129,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.45
+80.087,0.596,28251,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.49
+73.138,0.681,27928,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.5
+89.588,0.625,27187,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.47
+81.456,0.567,28058,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.50
+76.467,0.586,27923,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.54
+81.15,0.666,28052,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.53
+79.881,0.738,27374,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.57
+78.636,1.143,27621,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.56
+74.979,0.625,27994,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.48
+90.462,0.584,28431,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.59
+80.261,0.63,28063,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.58
+86.195,0.653,27528,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.51
+75.479,0.709,27932,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.6
+80.735,0.689,27117,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.62
+78.983,0.667,27284,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.55
+89.61,0.616,28388,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.46
+76.438,0.625,28254,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.66
+89.44,0.623,28313,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.52
+79.421,0.66,27990,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.65
+90.37,0.68,27713,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.61
+72.242,0.749,28048,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.67
+82.081,0.69,28087,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.60
+77.719,0.566,27919,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.71
+87.335,0.531,26997,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.68
+77.551,0.665,27630,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.73
+83.441,0.756,28060,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.7
+73.993,0.683,28094,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.75
+84.413,0.684,28341,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.64
+75.059,0.644,28056,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.70
+88.347,0.802,27716,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.78
+74.844,0.614,28309,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.69
+85.735,0.638,28094,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.77
+76.681,0.687,27370,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.74
+84.142,0.667,28433,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.76
+86.019,0.768,27469,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.72
+96.073,0.978,28385,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.80
+78.951,0.58,28346,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.81
+91.145,0.66,26992,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.85
+78.761,0.737,28386,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.63
+92.14,0.727,27918,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.8
+74.861,0.54,27799,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.82
+86.356,0.637,27924,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.88
+84.578,0.688,27466,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.89
+95.4,0.621,27352,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.90
+77.031,0.701,27370,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.91
+85.25,0.869,28089,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.92
+79.825,0.543,28061,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.87
+86.64,0.645,27960,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.9
+75.011,0.582,27933,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.86
+92.41,0.743,27719,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.95
+77.723,0.673,28256,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.83
+88.432,0.92,28057,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.84
+71.845,0.551,27199,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.79
+67.146,1.723,115453,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.1
+64.875,0.687,114983,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.10
+86.436,0.657,28096,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.94
+68.901,0.588,116261,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.100
+86.62,0.613,27191,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.96
+74.087,0.599,114527,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.11
+70.841,0.69,114549,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.12
+100.594,0.737,116341,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.13
+78.906,0.726,115467,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.14
+117.975,0.69,27399,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.93
+104.992,0.784,114221,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.15
+111.651,0.586,115437,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.16
+115.263,0.588,114847,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.17
+66.064,0.654,114759,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.19
+147.006,0.57,116345,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.18
+128.653,1.187,27684,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.97
+102.921,0.707,114955,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.20
+155.178,0.761,115019,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.2
+115.278,0.735,115725,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.21
+165.782,0.731,115441,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.22
+155.416,0.944,114579,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.23
+154.035,0.579,115657,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.24
+177.007,0.78,27794,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.99
+117.295,0.722,115955,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.25
+171.144,0.712,114597,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.26
+175.382,0.751,115863,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.27
+113.942,41.174,115167,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.3
+182.05,0.6,28354,26,"{'Merge Join': 1, 'Aggregate': 5, 'Gather Merge': 2, 'Sort': 3, 'Seq Scan': 3}",7,True,True,False,4,query15.98
+120.894,41.47,115575,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.28
+172.428,0.734,114909,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.29
+138.038,41.609,115433,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.30
+130.602,0.634,116339,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.31
+154.45,0.581,115067,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.32
+105.432,1.038,116087,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.33
+99.517,0.711,115333,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.36
+106.083,0.714,114713,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.37
+135.876,0.707,115407,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.34
+140.457,0.689,115245,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.35
+132.485,0.77,115967,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.38
+113.56,0.711,114093,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.39
+106.45,0.6,116213,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.4
+109.612,0.9,115329,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.40
+108.874,0.646,115843,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.41
+112.507,0.738,115829,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.45
+130.971,0.697,115233,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.42
+169.359,0.738,116565,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.44
+155.096,0.566,115187,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.46
+172.865,0.812,114949,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.43
+99.358,0.755,116547,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.47
+104.849,0.571,114937,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.49
+107.699,0.608,115249,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.48
+108.469,0.719,116117,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.5
+99.696,0.764,114821,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.52
+116.863,1.105,114643,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.50
+111.627,0.589,115085,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.51
+145.029,0.76,115679,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.53
+96.145,0.589,114829,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.54
+95.188,0.554,114513,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.55
+103.011,0.736,116395,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.57
+95.395,0.743,115445,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.56
+138.895,0.56,114305,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.58
+107.038,0.68,115007,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.6
+103.262,0.741,115715,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.59
+101.415,0.561,114919,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.60
+95.495,0.688,114683,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.61
+58.727,0.868,116089,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.62
+104.579,0.756,116209,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.63
+100.982,0.569,116017,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.65
+97.661,0.712,114813,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.64
+98.631,0.713,114157,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.67
+99.288,0.933,114355,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.68
+148.962,0.741,115469,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.66
+89.924,0.759,115153,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.7
+99.711,0.759,114593,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.69
+56.096,0.68,115625,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.73
+61.418,0.633,114605,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.71
+75.718,0.773,115815,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.70
+80.246,0.732,115443,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.72
+58.883,0.701,114365,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.76
+75.013,0.781,114349,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.74
+80.037,0.729,115113,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.75
+68.007,0.719,116141,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.77
+83.271,0.755,114897,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.78
+87.921,0.89,114859,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.80
+96.504,0.676,115959,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.8
+97.453,0.676,115635,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.79
+88.559,0.734,114673,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.82
+95.755,0.646,114605,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.81
+95.141,0.608,115603,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.83
+139.741,0.759,114207,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.84
+112.046,0.832,114865,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.85
+109.485,0.722,116311,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.88
+114.612,0.749,114241,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.9
+115.596,0.747,115721,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.86
+120.399,0.774,116375,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.87
+118.369,0.699,114741,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.90
+120.564,0.625,115871,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.89
+114.238,0.661,115563,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.91
+110.477,0.744,116469,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.92
+104.047,0.678,115079,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.93
+106.079,0.762,115041,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.94
+95.5,0.938,114743,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.96
+145.961,0.747,115301,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.95
+105.673,0.743,115979,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.98
+103.041,0.667,116159,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.97
+111.635,0.583,114441,8,"{'Sort': 2, 'Aggregate': 1, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",6,True,True,False,0,query16.99
+38309.03,0.471,600684,925,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.13
+38684.852,0.794,600689,935,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.15
+43088.346,0.641,600678,1035,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.11
+51991.726,0.839,600698,1251,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.10
+52273.214,0.535,600700,1259,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.12
+62322.669,0.691,600734,1505,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.100
+64216.732,0.529,600737,1551,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.1
+67346.054,1.154,600742,1641,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.14
+40513.101,0.631,600678,965,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.16
+55255.718,0.552,600709,1327,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.18
+64511.259,0.808,600721,1569,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.17
+42995.255,0.763,600689,1037,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.20
+58378.863,0.536,600702,1391,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.19
+61081.0,0.678,600723,1497,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.2
+40384.483,0.54,600684,981,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.23
+54757.246,0.762,600715,1323,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.22
+76720.681,0.695,600747,1873,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.21
+37868.004,0.54,600672,925,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.26
+46001.243,0.718,600696,1123,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.24
+45225.306,0.786,600688,1095,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.27
+45219.658,0.58,600683,1109,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.28
+64011.277,0.741,600720,1543,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.25
+57623.669,0.743,600707,1401,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.29
+54956.542,0.954,600722,1335,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.3
+34653.476,0.749,600667,835,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.32
+41012.511,0.537,600669,973,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.30
+36050.858,0.782,600664,857,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.33
+54987.008,0.714,600709,1337,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.31
+40197.677,0.545,600687,959,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.34
+48472.817,0.727,600694,1159,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.35
+48794.716,0.747,600702,1155,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.37
+36586.189,0.564,600676,875,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.4
+56070.87,0.623,600702,1321,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.38
+60714.069,0.784,600727,1447,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.36
+56228.037,0.537,600709,1353,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.39
+52583.126,0.72,600703,1263,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.40
+28198.714,0.715,600662,669,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.44
+65027.121,0.69,600744,1559,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.41
+55781.126,0.558,600717,1361,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.42
+39794.518,0.55,600671,953,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.45
+38398.393,0.737,600676,927,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.46
+54293.401,0.558,600705,1315,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.43
+30886.345,0.752,600667,739,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.48
+49401.751,0.731,600706,1199,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.47
+48207.241,0.751,600686,1161,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.49
+39834.188,0.72,600678,967,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.50
+56676.692,0.738,600714,1377,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.5
+45587.771,0.715,600677,1101,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.52
+46898.015,0.912,600695,1141,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.51
+44572.72,0.638,600695,1077,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.55
+52617.719,0.64,600710,1269,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.53
+66100.19,0.71,600722,1597,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.54
+46528.023,0.587,600691,1109,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.57
+57089.253,0.733,600715,1369,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.56
+41894.333,0.787,600678,999,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.58
+41077.732,0.701,600682,983,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.59
+52183.567,0.701,600702,1243,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.6
+47113.838,0.733,600692,1117,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.60
+56002.583,31.382,600725,1337,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.61
+49596.865,0.564,600701,1169,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.62
+43136.924,0.852,600699,1029,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.65
+44371.983,0.678,600683,1057,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.64
+48469.578,0.545,600699,1147,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.63
+59212.173,0.575,600712,1407,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.66
+49442.994,0.547,600699,1171,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.69
+32439.599,0.748,600664,755,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.71
+70902.323,0.789,600735,1709,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.67
+67533.747,0.989,600726,1621,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.68
+50186.837,0.568,600689,1181,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.72
+51027.05,0.766,600695,1217,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.70
+68193.159,0.721,600729,1641,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.7
+32585.714,0.849,600668,783,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.74
+31020.845,0.795,600661,745,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.77
+57403.747,0.72,600712,1387,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.73
+33226.732,0.553,600671,815,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.78
+59503.84,0.751,600717,1449,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.75
+55421.829,0.868,600705,1349,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.76
+45374.556,0.553,600684,1097,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.79
+44923.226,0.791,600698,1105,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.8
+43228.82,0.776,600678,1037,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.82
+26068.206,0.559,600654,623,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.84
+48614.623,0.756,600698,1179,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.81
+70094.288,0.681,600728,1705,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.80
+44210.993,0.735,600682,1071,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.86
+64527.54,0.56,600732,1577,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.83
+43766.97,0.647,600688,1057,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.88
+71946.354,0.739,600731,1727,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.85
+45881.207,0.587,600692,1113,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.9
+68466.127,0.536,600721,1647,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.87
+45951.413,0.55,600688,1141,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.90
+42621.967,0.588,600692,1075,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.91
+67762.546,0.672,600723,1731,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.89
+32219.894,0.979,600681,1067,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.93
+27974.217,0.688,600681,1035,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.95
+46340.963,0.815,600724,1485,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.92
+35584.674,0.777,600722,1415,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.94
+3479.721,0.856,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.1
+3503.001,0.838,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.10
+3581.79,0.857,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.100
+3606.627,0.672,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.11
+3084.622,0.679,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.12
+3113.247,0.651,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.13
+3085.626,0.823,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.15
+3176.356,0.833,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.14
+2994.031,0.809,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.16
+2995.624,0.819,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.17
+3092.595,0.793,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.18
+3081.59,0.905,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.19
+2915.731,0.83,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.2
+2993.479,0.844,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.20
+3002.629,0.807,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.22
+3083.175,0.787,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.21
+2787.109,0.641,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.24
+3075.858,0.887,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.23
+2884.97,0.722,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.26
+2990.721,0.635,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.25
+2810.759,0.868,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.27
+2818.021,0.803,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.28
+2901.552,0.758,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.29
+3025.725,0.852,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.3
+2909.643,0.84,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.30
+2983.138,0.646,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.31
+3016.063,0.856,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.32
+3092.938,0.64,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.33
+3006.882,0.819,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.34
+3169.219,0.828,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.35
+2997.071,0.647,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.36
+2985.153,0.892,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.37
+3075.482,0.659,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.38
+2990.605,0.834,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.39
+3114.268,1.01,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.4
+2815.027,0.845,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.40
+3073.464,0.784,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.41
+3291.643,0.968,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.42
+3194.772,0.869,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.43
+2909.443,0.83,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.44
+3102.278,0.897,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.45
+3286.436,0.862,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.46
+3000.027,0.953,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.47
+3178.669,0.865,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.48
+3182.422,0.814,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.49
+3157.531,0.661,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.50
+3282.74,0.808,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.5
+3208.162,0.919,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.51
+2986.476,0.864,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.52
+3077.954,0.905,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.53
+3308.235,0.926,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.54
+3301.819,0.918,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.55
+2972.04,0.601,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.56
+2910.01,0.902,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.58
+3210.432,0.651,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.57
+2860.93,0.643,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.59
+2814.508,0.831,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.6
+3089.248,0.805,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.60
+3276.781,0.635,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.61
+3299.101,0.797,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.62
+3074.816,0.803,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.63
+2785.629,0.707,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.64
+3055.739,0.742,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.65
+2686.774,0.855,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.66
+3115.535,1.079,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.67
+3270.775,0.718,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.68
+2908.829,0.872,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.69
+2808.112,0.854,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.7
+3113.584,61.259,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.70
+3069.272,0.834,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.72
+3099.339,1.038,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.71
+3078.249,0.82,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.73
+2966.113,0.648,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.74
+2817.586,0.806,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.75
+3011.072,0.821,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.76
+2905.09,0.914,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.77
+2910.544,0.851,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.78
+3087.923,0.815,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.79
+3006.14,0.803,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.8
+2986.458,0.858,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.80
+3005.224,0.811,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.81
+3104.194,51.686,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.83
+3190.909,0.85,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.82
+2872.369,0.623,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.84
+2889.527,0.645,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.85
+2777.291,0.643,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.86
+2823.404,0.676,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.87
+2912.183,0.859,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.88
+3003.024,0.856,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.89
+2984.66,0.891,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.9
+2987.322,0.83,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.90
+2689.455,0.822,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.91
+2996.646,0.686,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.92
+2892.601,0.897,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.94
+2985.961,0.798,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.93
+3151.606,0.642,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.95
+3319.583,0.828,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.96
+2930.82,0.827,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.98
+3085.088,0.708,630573,38,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,2,query18.97
+194.401,0.635,3915,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.1
+178.39,0.579,3856,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.10
+194.83,0.6,3903,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.100
+197.372,0.619,3502,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.11
+3077.292,0.816,630573,26,"{'Aggregate': 3, 'Gather Merge': 1, 'Sort': 1, 'Hash Join': 3, 'Seq Scan': 4, 'Hash': 3}",11,True,True,False,1,query18.99
+267.347,0.841,4174,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.12
+195.278,0.786,3633,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.13
+212.305,0.804,4014,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.14
+212.324,0.771,4423,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.16
+277.789,0.805,3767,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.15
+207.014,0.933,3185,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.17
+197.576,0.863,4733,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.18
+272.523,0.572,4718,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.2
+285.979,2.018,4019,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.19
+256.601,0.73,4347,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.21
+373.835,0.608,4930,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.20
+205.381,0.812,3748,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.22
+221.148,0.813,4167,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.23
+283.966,0.742,3937,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.24
+275.641,0.86,4577,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.25
+195.046,0.645,3355,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.26
+296.79,0.788,7046,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.27
+288.387,0.613,3754,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.28
+297.494,0.806,4706,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.29
+277.448,0.813,4148,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.3
+82345.742,0.758,600679,971,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.96
+82885.179,0.696,600695,1009,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.99
+86703.094,0.688,600704,1229,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.97
+88943.117,0.705,600708,1339,"{'Aggregate': 2, 'Hash Join': 1, 'Seq Scan': 3, 'Hash': 1}",4,True,False,False,0,query17.98
+311.889,0.713,3603,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.36
+311.99,0.743,4155,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.35
+317.39,0.729,3575,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.31
+338.236,0.659,6027,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.33
+535.823,0.683,11805,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.37
+537.895,0.721,9762,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.34
+613.132,0.781,13592,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.32
+266.996,0.819,4727,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.4
+256.805,0.81,4292,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.39
+632.03,0.751,11988,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.30
+264.627,0.809,4736,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.38
+310.362,0.834,5592,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.40
+282.381,0.686,3354,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.43
+282.95,0.845,4594,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.41
+286.561,0.552,4023,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.42
+386.942,1.096,5382,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.45
+475.901,0.628,12780,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.44
+558.959,0.623,11551,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.47
+210.875,0.814,4586,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.48
+203.387,0.805,4727,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.50
+211.065,0.805,3730,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.5
+599.562,0.759,11877,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.46
+275.745,0.894,3596,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.51
+215.436,0.762,3572,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.54
+208.24,0.739,3446,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.52
+569.678,0.771,9398,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.49
+306.701,0.665,4718,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.55
+204.651,0.685,4776,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.59
+277.805,0.605,4156,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.58
+277.021,0.807,4728,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.6
+590.111,0.761,11917,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.53
+514.375,0.777,13981,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.57
+205.67,0.757,3717,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.60
+603.36,0.733,11558,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.56
+204.908,0.857,4734,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.61
+303.827,0.673,6194,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.62
+219.939,0.774,3713,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.63
+217.537,0.916,3865,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.65
+304.367,0.954,6864,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.64
+312.497,0.6,5374,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.68
+207.307,0.752,4045,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.69
+214.864,0.648,4347,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.7
+503.802,0.64,12297,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.67
+518.491,0.792,10268,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.66
+298.653,0.792,6397,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.71
+307.134,0.792,5784,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.70
+285.09,0.858,3050,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.72
+280.156,0.776,4727,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.73
+304.773,0.756,5354,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.74
+259.846,0.645,4181,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.76
+208.715,61.326,3737,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.77
+421.878,0.756,9786,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.75
+269.724,0.609,3912,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.79
+272.595,0.601,4567,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.80
+208.712,0.887,4159,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.81
+378.81,0.748,5518,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.8
+521.674,0.737,12313,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.78
+299.011,0.78,4731,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.82
+205.593,0.758,4726,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.84
+221.793,0.972,4222,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.85
+590.324,0.809,11079,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.83
+387.19,0.762,5339,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.86
+290.024,0.758,3476,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.89
+320.191,0.732,4974,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.87
+311.282,0.762,6193,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.88
+206.682,0.76,4608,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.9
+221.759,0.777,6396,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.90
+205.917,0.67,3733,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.91
+289.925,0.792,7057,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.93
+294.32,0.779,6424,12,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,1,query19.94
+207.182,0.764,3737,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.97
+405.204,0.586,10669,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.95
+477.143,0.586,11382,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.92
+267.074,0.782,3504,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.98
+198.383,0.917,4451,17,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,2,query19.99
+492.399,0.737,13186,7,"{'Aggregate': 2, 'Gather': 1, 'Hash Join': 1, 'Seq Scan': 2, 'Hash': 1}",6,True,False,False,0,query19.96
+1601.14,1.236,114509,22552,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.11
+1770.435,0.812,113873,25093,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.12
+1788.459,0.752,118936,29919,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.14
+1796.489,0.754,114523,24176,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.13
+1809.385,0.743,114530,25191,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.15
+1931.739,0.919,118954,32449,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.1
+2025.143,1.073,113895,27282,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.100
+2236.361,1.016,113921,31063,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.10
+1680.538,0.778,118920,26929,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.16
+1565.371,0.779,118898,23479,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.18
+1730.039,0.846,111423,22467,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.19
+1734.684,1.149,115499,24681,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.20
+1509.915,0.771,115485,23009,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.22
+1915.219,0.871,111450,25595,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.2
+2013.052,1.322,111442,25043,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.17
+1778.283,0.942,111411,20811,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.21
+1905.633,0.748,113878,25292,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.23
+2001.826,0.997,115513,26562,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.24
+1889.17,1.023,114530,24785,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.26
+2078.954,0.949,113885,26287,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.25
+1972.007,1.032,113897,27879,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.27
+2094.825,0.937,118967,33829,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.29
+2196.687,1.2,114563,30875,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.28
+2172.319,0.968,118955,31759,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.3
+1880.419,0.731,118945,30839,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.31
+1389.049,0.964,115471,21128,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.37
+2190.908,1.113,114568,31281,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.30
+1782.522,0.751,111442,23755,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.34
+1918.985,0.78,111438,24123,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.32
+1937.301,1.038,118950,31529,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.33
+1757.119,0.888,111433,23203,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.36
+1981.89,0.928,115539,30742,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.35
+1969.45,0.703,113876,24894,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.38
+1863.251,1.379,115495,24263,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.39
+1792.833,0.731,114516,23364,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.41
+1600.295,0.753,114509,22349,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.43
+1920.347,0.945,111432,23939,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.4
+1910.427,0.635,113876,24894,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.40
+1944.75,0.821,113893,26685,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.42
+2001.352,1.193,118946,31069,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.44
+1690.177,0.919,118926,27849,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.48
+1817.608,0.921,111435,24123,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.47
+1818.849,0.747,111421,22835,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.49
+1892.592,0.9,115515,27816,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.5
+2160.244,1.018,118953,32679,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.46
+1418.825,0.94,111395,18603,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.51
+2218.521,1.073,114580,32296,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.45
+1899.521,41.543,115522,28652,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.50
+1054.364,0.726,115497,24472,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.52
+887.133,1.101,115483,23009,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.54
+853.824,0.731,113860,22307,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.55
+1115.218,0.917,113884,26088,"{'Sort': 1, 'Hash Join': 6, 'Seq Scan': 9, 'Hash': 6, 'Aggregate': 1, 'Nested Loop': 1, 'Materialize': 1}",10,True,True,False,0,query2.53

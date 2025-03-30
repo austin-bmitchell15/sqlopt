@@ -1,0 +1,90 @@
+\documentclass[sigconf]{acmart}
+
+\setcopyright{none}    % Disables ACM copyright notice
+\acmConference{}{}{}   % Removes conference information
+\acmBooktitle{}        % Removes book title
+\acmDOI{}              % Removes DOI
+\acmISBN{}             % Removes ISBN
+\settopmatter{printacmref=false} % Removes the ACM reference format notice
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+
+\title{Project Proposal: SQL Auto-Optimization Using Random Forests}
+\author{Austin Mitchell}
+\affiliation{%
+  \institution{Georgia Institute of Technology}
+  \city{Atlanta, GA}
+  \country{United States}
+}
+\email{amitchell80@gatech.edu}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Query optimization still remains an issue that has yet to be solved.
+Traditional optimization techniques use heuristics and cost-based optimization technniques.
+These techniques typically work by analyzing the execution costs and determining more efficient ways to establish these queries.
+This can be done through the manipulation of operations such as reordering join operations or choosing the right indexes. These optimizations
+are important for a scalable database to be able to handle queries that require lots of computational power on the system hosting these services.
+While these optimizations are good by utilizing heuristics, they may not always find the best solutions.
+By improving these optimizations, this could lead to decreased costs and more efficient query times which could benefit both the user
+and the producer. As is the case with most problems, there are plenty of researchers who seek to expand upon this idea and improve these
+optimizers further.
+
+Machine learning introduces an alternative by ``teaching'' itself from past query executions to and suggest optimizations.
+Several studies have looked into this idea of developing optimizers to replace current standards\cite{Marcus_2019}\cite{mlcomparative2024}.
+This project attempts to build upon this initial idea by working to develop a machine learning optimizer that works in conjuction with the
+traditional cost-based optimizers that currently exist within database management systems (DBMS).
+
+This machine learning optimizer will attempt to predict execution times and suggest rewrites with the hopes that it can improve performance
+of query executions.
+
+\section{Methodology}
+
+\subsection{TPC-H Benchmark}
+In order to develop this project, we will be using the TPC-H dataset in order to generate real-world queries. This is a widely-used performance
+benchmark, and thus it should work for this scenario. Additionally, since the TPC-H dataset works as a benchmark, it could prove useful to compare my
+work to those of others in order to develop a comparative understanding to the project as a whole. We will execute the benchmark and 
+use the \texttt{EXPLAIN ANALYZE} command in PostGres we will collect each queries various features to be used in training a RandomForest model
+in order to predict execution times of the query. PostGres was chosen almost solely for its ability to provide detailed plans and logging of these queries.
+These results can then be stored in some lightweight way such as a CSV file.
+
+\subsection{Model Suggestion and Prediction}
+From this CSV file, important features that would be important to the execution time can be extracted. We will utilize a number of features including but not limited to:
+number of joins, indexes used, sorting/aggregation operations, etc. These features will then be analyzed by a random forest model
+in order to determine which features are the most important and provide a predicted execution time. The random forest will utilized the actual
+execution time as its validation information in an attempt to improve its own accuracy. This outlines my 75\% goal for this project which is to
+obtain a model that is able to predict the execution time of a given query to some degree.
+
+The next step of this project would then come in the form of developing an alternative execution plan analysis. Currently, I would like to explore the
+idea of using Genetic Algorithms alongside the Random Forest. This Genetic Algorithm would attempt to perform rewrites of the original query, and
+use our newly created Random Forest model in order to predict its own execution time. However, if I find the Genetic Algorithm to be unfeasible at scale,
+I might attempt to utilize a Reinforcement Learning or Neural Network model instead. At a high-level, a genetic algorithm seems suitable for this type of situation; however,
+I am wary of their inability to ``learn'' the alternative execution plan creation process. In terms of analysis, this type of algorithm might work, but in real-world applications
+it could be too slow. A comparison of this predicted execution time and the execution time of the original query will then be compared to determine which of the population remains.
+
+These two models in conjunction will then be analyzed and compared against the original optimizer of PostGres in order to determine the overall
+effectiveness of these two models as a whole. We will perform this analysis across key metrics such as the Random Forest's prediction accuracy and efficiency
+improvements of the Genetic Algorithm at a minimum. I will also investigate teh hardware and resource usage of the two systems in an attempt to determine
+if the Random Forest and Genetic Algorithm models are feasible at scale.
+
+\section{Resources}
+For the required resources, I will be utilizing a PostGreSQL in order to execute the TPC-H benchmark. This TPC-H benchmark will
+be used for processing queries that will serve as my real-world test for my own model. I will also be utilizing the Python language and
+its numerous machine learning-based libraries in order to develop the models required to improve the optimizer.
+
+\section{Conclusion}
+For this project, I hope to achieve goals that surpass the existing Cost-Based Optimizers that exist on most current DBMS's, but
+I also understand that Machine Learning models can be computationally expensive especially when they require numerous iterations. My initial goal
+is to establish a execution time prediction model. After which, I will attempt to develop a Genetic Algorithm that will attempt to derive alternative
+plans for each query and analyze them. I also hope to develop a top-down analysis of both the model and the original PostGreSQL optimizer in hopes
+of developing a more complete understanding.
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}
+

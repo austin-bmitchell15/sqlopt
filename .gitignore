@@ -52,3 +52,4 @@
 *.synctex.gz(busy)
 
 */generated_queries/*
+*/processed_queries/*

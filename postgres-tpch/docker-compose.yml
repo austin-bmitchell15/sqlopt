@@ -1,0 +1,19 @@
+version: '3.38'
+
+services:
+  tpch-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tpch-generator
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - ./generated_queries:/generated_queries
+    ports:
+      - "5432:5432"
+    working_dir: /app
+    mem_limit: 4g
+    cpus: 4
+    tty: true
