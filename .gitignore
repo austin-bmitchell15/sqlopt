@@ -1,0 +1,54 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.mst
+
+# Editor backup and temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Generated PDF and compiled files
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+
+# BibTeX bibliography database files
+*.bib.bak
+
+# Auxiliary files from algorithms and tables
+*.alg
+*.loa
+*.thm
+
+# Latexmk intermediate files
+*.fdb_latexmk
+*.fls
+
+# MacOS and Linux system files
+.DS_Store
+*/__MACOSX/
+
+*.egg-info
+
+# Overleaf project sync files
+*.synctex.gz(busy)
+
+*/generated_queries/*
